@@ -1,0 +1,31 @@
+h1{
+  text-align:center;
+  font-size:24px;
+}
+#p{
+  font-size: 19.2;
+}
+#biography:link {
+  color:blueviolet;
+}
+#bigraphy:visited {
+  color:dimgray;
+}
+#novadays:link {
+  color:deeppink;
+}
+#novadays:visited {
+  color:cornflowerblue;
+}
+#friends:link {
+  color:mediumblue;
+ }
+#friends:visited {
+  color:palevioletred;
+ }
+#gallery:link {
+  color:brown
+}
+#gallery:visited {
+  color:cadetblue
+}
