@@ -19,6 +19,7 @@ h1{
 }
 #friends:link {
   color:mediumblue;
+
  }
 #friends:visited {
   color:palevioletred;
@@ -28,4 +29,37 @@ h1{
 }
 #gallery:visited {
   color:cadetblue
+}
+
+body { 
+  margin: 0; 
+  padding: 0; 
+} 
+.caption{
+  display: flex; 
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media(max-width: 768px){
+
+  .caption{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+@media(min-width: 992px){
+
+ .caption{
+  display: flex;
+  flex-direction: row;
+ }
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .caption{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+  }
 }

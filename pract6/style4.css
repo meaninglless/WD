@@ -15,7 +15,7 @@ h2{
   font-weight:bold;
 }
 .number {
- text-align:right
+ text-align:center
 }
 table {
  width: 100%;
@@ -30,4 +30,28 @@ th, td {
 }
 .frd:nth-child(odd) {
  background: gray;
+}
+@media (min-width: 992px){
+  #frnd{
+    
+      font-size: 130%;
+  }
+  #frd{
+    
+      font-size: 120%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  #frnd{
+      font-size: 120%;
+  }
+  #frd{
+   
+      font-size: 110%;
+  }
+}
+@media (max-width: 767px) {
+  #frnd{
+      font-size: 110%;
+  }
 }
