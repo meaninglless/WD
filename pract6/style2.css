@@ -25,8 +25,8 @@ display: block;
 text-align: center;
 background-color: blue;
 color: white;
-width: 150px;
-padding: 6px;
+width: 170px;
+padding: 5px;
 border: 2px solid black;
 text-decoration: none;
 }
@@ -34,7 +34,7 @@ text-decoration: none;
 display: block;
 background-color: magenta;
 color: white;
-width: 150px;
+width: 170px;
 padding: 5px;
 border: 2px solid black;
 text-decoration: none;
@@ -49,21 +49,82 @@ text-decoration: none;
 }
 .base1{
 background:pink;
-color:indigo;
+color:rgb(104, 3, 59);
 }
 #child1 {
-background:deepskyblue;
+background:rgb(124, 201, 226);
 color:mediumblue;
 }
 #school1 {
-background:mediumslateblue;
-color:crimson;  
+background:rgb(163, 147, 253);
+color:rgb(102, 7, 86);  
 }
 #leisure1 {
 background:palegreen;
 color:darkolivegreen;  
 }
 #pnu1 {
-background:peru;
-color:brown;  
+background:rgb(238, 167, 95);
+color:rgb(138, 29, 29);  
+}
+.tablet {
+  width: 100%;
+  display: flex;
+  text-align: center;
+
+}
+.tablet div{
+  display: flex;
+  align-items: stretch;
+}
+
+.title {
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 0;
+}
+
+a {
+  font-size: 34px;
+  padding: 20px 0;
+}
+
+@media (min-width: 992px) {
+  .tablet{
+      flex-wrap: wrap;
+  }
+  .col-lg-4 {
+      width: 33.33%;
+  }
+
+  .col-lg-6 {
+      width: 50%;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .tablet {
+      flex-wrap: wrap;
+  }
+
+  .col-md-6 {
+      width: 50%;
+  }
+
+  .col-md-12 {
+      width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .tablet {
+      flex-direction: column;
+  }
+
+  .col-sm-12 {
+      width: 100%;
+  }
 }
