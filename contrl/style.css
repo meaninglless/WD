@@ -1,0 +1,128 @@
+#picture{
+
+  cursor: pointer;
+}
+
+.text{
+  border: 2px rgb(90, 3, 68);
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  background-color: rgb(250, 164, 228);
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  margin: 5px;
+}
+.spusok {
+  border: 2px rgb(8, 34, 90);
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  background-color: rgb(117, 155, 238);
+  margin: 5px;
+}
+.table {
+  border: 2px solid rgb(61, 6, 87);
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  background-color: rgb(156, 100, 247);
+  margin: 5px;
+}
+.picture {
+  border: 2px rgb(73, 41, 3);
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  background-color: rgb(240, 181, 73);
+  margin: 5px;
+}
+ h4{
+  border: 2px rgb(1, 31, 11);
+  border-left: 0;
+  border-bottom: 0;
+  background-color: rgb(130, 243, 145);
+  width: 100px;
+  color: rgb(1, 31, 11);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+article{
+  font-family: 'Zilla Slab', serif;
+}
+.shrift{
+  font-family: 'Cormorant Garamond', serif;
+
+}
+h4{
+  font-size: 120%;
+  font-family: 'Cookie', cursive;
+  
+}
+table{
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 2px;
+}
+th, td {
+  text-align: center;
+  border:2px solid black;
+  padding: 1%;
+  min-width: 80px;
+ }
+
+
+.items {
+  width: 100%;
+  display: flex;
+}
+.item{
+  display: flex;
+}
+@media (min-width: 1200px){
+  .col-lg-3{
+      width: 25%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+  .items{
+      flex-wrap: wrap;
+  }
+  .col-md-4{
+      width: 33.33%;
+  }
+  .col-md-12{
+      width: 100%
+  }
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .items{
+      flex-wrap: wrap;
+  }
+  .col-sm-6{
+      width: 50%;
+  }
+}
+@media (max-width: 768px){
+  .items{
+      flex-direction: column;
+  }
+  .col-xs-12{
+      width: 100%;
+  }
+}
